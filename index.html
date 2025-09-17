@@ -1,28 +1,76 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Proyecto sprint 4 creando una landing page con un espacio 
-    para ver recetas y poder reservar una mesa con formulario.">
-    <meta name="author" content="Ximena Barrero">
-    <meta name="keywords" content="HTML, CSS, cafeteria,recetas, reservacion">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Proyecto sprint 4 creando una landing page con un espacio 
+    para ver recetas y poder reservar una mesa con formulario."
+    />
+    <meta name="author" content="Ximena Barrero" />
+    <meta name="keywords" content="HTML, CSS, cafeteria,recetas, reservacion" />
     <title>Cafetería</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./vendor/normalize.css">
-    <link rel="stylesheet" href="./pages/index.css">
-    <link rel="icon" href="./favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-</head>
-<body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="icon" href="./favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body>
     <div class="page">
-        <header class="header"></header>
-        <main class="content">
-            <section class="recipes"></section>
-            <section class="reservation"></section>
-        </main>
-        <footer class="footer"></footer>
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo_coffeeshop_dark.svg"
+            alt="Logotipo de Cafetería Triple Espresso"
+            class="nav__logo"
+          />
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link" href="">Recetas</a>
+            </li>
+            <li>
+              <a class="nav__link" href="">Reservar una mesa</a>
+            </li>
+            <li>
+              <a class="nav__link" href="">Contactos</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__content">
+          <div>
+            <h1 class="header__title">Café de especialidad</h1>
+            <h1 class="header__subtitle">en Triple Peaks</h1>
+            <p class="header__description">
+              ¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos
+              café para darte energía y motivar tu creatividad.
+            </p>
+          </div>
+          <img
+            src="./images/inside_coffee_shop.png"
+            alt="Ilustración dentro de cafetería"
+            class="header__image">
+            </div>
+          <div class="header__footer">
+            <p class="header__times">
+              Horario:<br> Lunes a Viernes (de 10:00h a 19:00h)<br> Sábados y Domingos
+              (de 11:00h a 18:00h)
+            </p>
+            <p class="header__address">
+              Avenida del Éxito 200, Ciudad Triple Peaks
+            </p>
+          </div>
+      </header>
+      <main class="content">
+        <section class="recipes"></section>
+        <section class="reservation"></section>
+      </main>
+      <footer class="footer"></footer>
     </div>
-</body>
+  </body>
 </html>
