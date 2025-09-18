@@ -35,6 +35,7 @@
   position: relative;
   left: 30px;
   top:30px;
+  margin-bottom: 183px;
   width:105px;
   height: 39px;
 }
@@ -56,30 +57,27 @@
   line-height: 20px;
 }
 
-.header__content {
+.header__title{
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  position: relative;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 72px;
+    letter-spacing: -1px;
+    left: 80px;
+    max-width: 709px;
 }
 
 .header__title-span {
+  display: flex;
   font-family: "Noto Serif";
   font-style: italic;
   font-weight: normal;
   font-size: 58px;
   line-height: 72px;
   color: #2F80ED;
-  max-width: 709px;
-}
-
-.header__title{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 58px;
-    line-height: 72px;
-    letter-spacing: -1px;
-    margin-left: 80px;
-    display: block;
-    margin-top: 183px;
 }
 
 .header__description {
@@ -95,32 +93,49 @@
 }
 
 .header__image {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
   width: 646px;
   height: 568px;
-  margin-top:55px;
-  padding-right: 5px;
+  top:124px;
+  right: 5px;
 }
 
 .header__footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-left: 80px;
-    margin-right: 80px;
-}
-
-.address{
-  align-self:flex-end;
-
-}
-
-.header__text{
-    font-style: normal;
-    font-weight: 500;
     color: #838383;
 }
 
+.header__timetable{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 80px;
+  bottom: 40px;
+}
+
+.header__paragraph{
+  font-family: "Inter", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #838383;
+    margin: 0;
+}
+
+.header__address{
+  display: flex;
+  margin-top: auto;
+  position: absolute;
+  right: 80px;
+  bottom: 20px;
+}
+
 .recipes{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
   background-color: #0a2750;
   background-image: url(../images/background_recipes.svg);
   background-repeat: no-repeat;
