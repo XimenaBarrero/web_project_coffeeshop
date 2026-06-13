@@ -274,4 +274,7 @@ margin: 0 auto 120px;
   color: #fff;
 }
 
+.form__button:hover{
+  opacity: 0.7;;
+}
 
